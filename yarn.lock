@@ -3146,9 +3146,9 @@ tilelive-otp-routes@HSLdevcom/tilelive-otp-routes:
     requestretry "^1.6.0"
     vt-pbf "^2.0.2"
 
-tilelive-otp-stops@HSLdevcom/tilelive-otp-stops:
+tilelive-otp-stops@verschwoerhaus/tilelive-otp-stops:
   version "0.3.3"
-  resolved "https://codeload.github.com/HSLdevcom/tilelive-otp-stops/tar.gz/a80eddf0c0114c1e74da0c28341305e0515dce1a"
+  resolved "https://codeload.github.com/verschwoerhaus/tilelive-otp-stops/tar.gz/858e8fc7db5fbd206019236816a029259cf40582"
   dependencies:
     geojson-vt "^2.4.0"
     lodash "^4.15.0"

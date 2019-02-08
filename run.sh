@@ -8,8 +8,8 @@ fi
 
 #start map server
 
-cd ${WORK}/node_modules/hsl-map-style && \
-unzip -P ${FONTSTACK_PASSWORD} fontstack.zip && \
+#cd ${WORK}/node_modules/hsl-map-style && \
+#unzip -P ${FONTSTACK_PASSWORD} fontstack.zip && \
 cd ${WORK} && \
 Xorg -dpi 96 -nolisten tcp -noreset +extension GLX +extension RANDR +extension RENDER -logfile ./10.log -config ./xorg.conf :10 & \
 sleep 15 && \
@@ -21,4 +21,6 @@ node_modules/tessera/bin/tessera.js --port 8080 --config config.js --multiproces
 -r ${WORK}/node_modules/tilelive-gl/ \
 -r ${WORK}/node_modules/tilelive-hsl-parkandride \
 -r ${WORK}/node_modules/tilelive-hsl-ticket-sales \
+-r ${WORK}/node_modules/tilelive-vector \
+-r ${WORK}/node_modules/tilelive-xray \
 && sleep 10 && node_modules/.bin/forever --fifo logs 0
