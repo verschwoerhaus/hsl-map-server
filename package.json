@@ -27,7 +27,7 @@
     "tilelive-hsl-ticket-sales": "HSLdevcom/tilelive-hsl-ticket-sales",
     "tilelive-http": "^0.14.0",
     "tilelive-otp-citybikes": "HSLdevcom/tilelive-otp-citybikes#3f403de9859415146142f4f0b371ee258332c864",
-    "tilelive-otp-stops": "verschwoerhaus/tilelive-otp-stops",
+    "tilelive-otp-stops": "verschwoerhaus/tilelive-otp-stops#89fe7a21ebe08c6557e8d016fe5bab82b437aba8",
     "tilelive-vector": "^3.9.3",
     "tilelive-xray": "^0.4.0"
   }
