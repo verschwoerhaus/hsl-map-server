@@ -11,7 +11,7 @@ module.exports = {
   "/map/v1/citybike-map": {
     "source": `otpcitybikes://${process.env.OTP_URL}`,
     "headers": {
-      "Cache-Control": "public,max-age=43200"
+      "Cache-Control": "public,max-age=60"
     }
   },
 }
