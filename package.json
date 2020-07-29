@@ -18,13 +18,12 @@
   "homepage": "https://github.com/HSLdevcom/hsl-map-server#readme",
   "dependencies": {
     "forever": "^0.15.2",
-    "mbtiles": "hannesj/node-mbtiles#patch-1",
-    "tessera": "^0.12.0",
-    "tilejson": "^1.0.1",
-    "tilelive-http": "^0.14.0",
+    "@mapbox/mbtiles": "^0.12.1",
+    "tessera": "^0.13.1",
+    "@mapbox/tilejson": "^1.1.0",
+    "@mapbox/tilelive-vector": "^4.1.1",
     "tilelive-otp-citybikes": "HSLdevcom/tilelive-otp-citybikes#493589481e96e32928a3f64eb6701ec1650334ff",
     "tilelive-otp-stops": "verschwoerhaus/tilelive-otp-stops#89fe7a21ebe08c6557e8d016fe5bab82b437aba8",
-    "tilelive-vector": "^3.9.3",
     "tilelive-xray": "^0.4.0"
   },
   "resolutions": {
