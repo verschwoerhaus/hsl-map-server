@@ -2,7 +2,7 @@ FROM node:12-stretch
 MAINTAINER Reittiopas version: 0.1
 
 ENV FONTSTACK_PASSWORD ""
-ENV OTP_URL api.im.verschwoerhaus.de/routing/v1/routers/ulm/index/graphql
+ENV OTP_URL api.digitransit.im.verschwoerhaus.de/routing/v1/routers/vsh/index/graphql
 ENV WORK=/opt/hsl-map-server
 ENV NODE_OPTS ""
 
