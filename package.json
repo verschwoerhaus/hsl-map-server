@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/HSLdevcom/hsl-map-server#readme",
   "dependencies": {
-    "forever": "^0.15.2",
+    "forever": "^3.0.0",
     "@mapbox/mbtiles": "^0.12.1",
     "tessera": "^0.13.1",
     "@mapbox/tilejson": "^1.1.0",
@@ -27,6 +27,8 @@
     "tilelive-xray": "^0.4.0"
   },
   "resolutions": {
-    "tilelive-cache": "^0.7.2"
+    "tilelive-cache": "^0.7.2",
+    "@mapbox/mapbox-gl-native": "^5.0.2",
+    "pngquant-bin": "^6.0.0"
   }
 }
