@@ -22,7 +22,7 @@
     "tessera": "^0.13.1",
     "@mapbox/tilejson": "^1.1.0",
     "@mapbox/tilelive-vector": "^4.1.1",
-    "tilelive-hb-parking": "mfdz/tilelive-park-api#946700ddd36abbfa54956190d0902dec9bf2f876",
+    "tilelive-hb-parking": "mfdz/tilelive-park-api#ca7aad94576d4292acd9d80e247e9a97af2d7822",
     "tilelive-otp-citybikes": "verschwoerhaus/tilelive-otp-citybikes#d0e5b53a2abcbef2bff427513225483a62d2a961",
     "tilelive-otp-stops": "verschwoerhaus/tilelive-otp-stops#89fe7a21ebe08c6557e8d016fe5bab82b437aba8",
     "tilelive-xray": "^0.4.0"
